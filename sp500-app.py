@@ -71,7 +71,7 @@ def price_plot(symbol):
   plt.title(symbol, fontweight='bold')
   plt.xlabel('Date', fontweight='bold')
   plt.ylabel('Closing Price', fontweight='bold')
-  return st.pyplot(fig)
+  return st.pyplot()
 
 num_company = st.sidebar.slider('Number of Companies', 1, 5)
 
